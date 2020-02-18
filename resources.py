@@ -7,7 +7,7 @@ country_names = {
     'United States': 'USA'
 }
 
-popular_countries = {'USA', 'UK', 'Argentina', 'Canada', 'Australia', 'Germany', 'France'}
+popular_countries = {'USA', 'Argentina', 'Canada', 'Australia', 'Germany', 'France'}
 
 
 country_locations = {'Andorra': (42.546245, 1.6015540000000001),

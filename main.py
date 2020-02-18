@@ -229,4 +229,4 @@ if __name__ == "__main__":
         revised_film_list = revise_films(close_films)
 
         create_map(pos, revised_film_list, country_count)
-        print('HTML map created!')
+        print('HTML map created! Please open index.html in your browser.')
