@@ -37,3 +37,5 @@ Enter your latitude: 50
 Enter your longitude: 20
 Please input a year: 2017
 HTML map created! Please open index.html in your browser.
+
+![Map screenshot](https://github.com/RavenbornJB/film_mapmaker/blob/master/map_screenshot.png)
