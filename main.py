@@ -77,6 +77,9 @@ def coordinate_finder(geopy_object: object, location: str):
         else:
             break
 
+    if coordinates is None:
+        return None
+
     lat = coordinates.latitude
     long = coordinates.longitude
 
@@ -114,6 +117,8 @@ def main(pos: tuple, year: int, geopy_object: object, locations: dict):
                 if second_factor is not None and country in popular_countries and second != second_factor:
                     continue
                 coordinates = coordinate_finder(geopy_object, loc)
+                if coordinates is None:
+                    continue
                 dist = float(str(distance.distance(pos, coordinates))[:-3])
                 closest_films.append((film, dist, coordinates))
 
