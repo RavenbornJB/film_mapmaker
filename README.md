@@ -7,7 +7,7 @@ The output is generated in an index.html file.
 
 The map also had a third layer which demonstrates the amount of films produced in each country.
 This can be toggled on and off.
-
+___
 ### Html description
 The index.html file is comprised of two parts: the **tags** and the **text** itself.
 
@@ -25,12 +25,12 @@ This is to dedicate a whole section of the page to the Folium map itself.
 
 The last part is the giant script tag. It contains a JS version of everything we do to the map -
  add markers, circle markers, layer control, etc.
-
+___
 ### Conclusion
 This project shows us that making practical and useful maps with Python
 is actually pretty easy. We can manipulate geographical information
 with geopy and draw it with folium. Neat!
-
+___
 ### Example of launch
 ```
 Enter your latitude: 50
